@@ -113,6 +113,26 @@ namespace VegaJuego.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Broncas_Arriba {
+            get {
+                object obj = ResourceManager.GetObject("Broncas_Arriba", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Broncas_Derecha {
+            get {
+                object obj = ResourceManager.GetObject("Broncas_Derecha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Broncas_Izquierda {
             get {
                 object obj = ResourceManager.GetObject("Broncas_Izquierda", resourceCulture);

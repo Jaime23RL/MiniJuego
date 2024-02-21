@@ -44,7 +44,23 @@ namespace VegaJuego
 
         private void MovEnemigos_Tick(object sender, EventArgs e)
         {
+            labelVida.Text = "Salud " + Player.Salud;
+            labelEscudo.Text = "Escudo " + Player.Escudo;
+            labelArma.Text = "Arma " + Player.Arma;
 
+            if(Player.Caja.Bounds.IntersectsWith(Enemigo1.Caja.Bounds))
+            {
+                Player.Salud = Player.Salud - 1;
+            }
+            Enemigo1.mover();
+            if(Player.Salud<=0)
+            {
+                this.Hide();
+                Final End=new Final();
+                MovEnemigos.Stop();
+                End.Show();
+
+            }
         }
     }
 }

@@ -103,6 +103,16 @@ namespace VegaJuego.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Boton1 {
+            get {
+                object obj = ResourceManager.GetObject("Boton1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Broncas_abajo {
             get {
                 object obj = ResourceManager.GetObject("Broncas_abajo", resourceCulture);
@@ -183,6 +193,16 @@ namespace VegaJuego.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FondoPantalla1 {
+            get {
+                object obj = ResourceManager.GetObject("FondoPantalla1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GameOver {
             get {
                 object obj = ResourceManager.GetObject("GameOver", resourceCulture);
@@ -237,6 +257,15 @@ namespace VegaJuego.Properties {
             get {
                 object obj = ResourceManager.GetObject("salud", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream sonido {
+            get {
+                return ResourceManager.GetStream("sonido", resourceCulture);
             }
         }
         

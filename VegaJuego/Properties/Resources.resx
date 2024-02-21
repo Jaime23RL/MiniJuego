@@ -130,6 +130,12 @@
   <data name="Arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\Arriba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ZeldaLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\ZeldaLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoBueno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\LogoBueno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FondoPantalla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\FondoPantalla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,8 +157,8 @@
   <data name="Broncas_Arriba" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\Broncas_Arriba.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LogoBueno" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\LogoBueno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FondoPantalla1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondoPantalla.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FondoFinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\FondoFinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,10 +175,13 @@
   <data name="Abajo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\Abajo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ZeldaLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\ZeldaLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="GameOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GameOver.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Boton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Boton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sonido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sonido.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
